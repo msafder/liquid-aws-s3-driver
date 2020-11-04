@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/binarybirds/liquid-kit.git", from: "1.0.0"),
-        .package(url: "https://github.com/swift-aws/aws-sdk-swift.git", from: "5.0.0-alpha"),
+        .package(url: "https://github.com/soto-project/soto.git", from: "5.0.0-alpha"),
     ],
     targets: [
         .target(name: "LiquidAwsS3Driver", dependencies: [
